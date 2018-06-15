@@ -3,10 +3,10 @@ Easiest way to backup and restore all databases from a SQLServer instance
 
 ## Prerequies
 The first time you need to create a stored procedure to handle the restore process.
-To do this, just execute this script : [ScriptToCreate_Restore_StoredProcedure.sql](ScriptToCreate_Restore_StoredProcedure.sql])
+To do this, just execute this script : [ScriptToCreate_Restore_StoredProcedure.sql](ScriptToCreate_Restore_StoredProcedure.sql)]
 
 ## 1. Backup
-When you want to backup all your databases to a specific directory, you need to execute this script :  [ScriptToBackupAllDatabases.sql](ScriptToBackupAllDatabases.sql])
+When you want to backup all your databases to a specific directory, you need to execute this script :  [ScriptToBackupAllDatabases.sql](ScriptToBackupAllDatabases.sql)]
 > You have to adjust your backup destination directory, like this : SET @path = 'D:\BCK_BDD\MASTER\'  
 
 ## 2 Restore
